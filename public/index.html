@@ -4,61 +4,143 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			href="https://fonts.googleapis.com/css?family=Poppins"
+			rel="stylesheet" />
 		<link rel="stylesheet" href="css/style.css" />
 		<title>TDC XII</title>
 		<!-- phone = max-width = 600px -->
 		<!-- tablets = min-width = 768px -->
 		<!-- laptop = min-width = 992px -->
 	</head>
-	<body class="text-[#e6e6e6] bg-[#16161a]">
+	<body class="text-[#e6e6e6] bg-[#16161a] font-[Poppins]">
 		<div id="loading-screen" class="w-full h-full bg-[#16161a] fixed z-30">
 			<h1>TDC XII is loading...</h1>
 		</div>
 
-		<nav
-			class="w-full h-[80px] flex justify-between bg-[#72757e] fixed z-10">
-			<!-- LEFT NAVIGATION -->
-			<div class="flex">
-				<a href="#intro-TDC">
-					<img
-						src="../src/img/logo-SCC.png"
-						alt="LogoSCC"
-						class="w-[70px] h-[70px] p-[5px]" />
-				</a>
-				<div class="p-[5px]">
-					<h2 class="desktop:text-2xl max_1200:text-xl">
-						Smansa Computer Community
-					</h2>
-					<h4 class="desktop:text-xl max_1200:text-lg">
-						SMAN 1 Denpasar
-					</h4>
+		<!-- THREE DIVISIONS COMPETITION HEADER -->
+		<section
+			class="w-full h-full px-[115px] py-[200px] bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-[#a7bcd9] via-[#4b4f7b] to-[#1d1b53]">
+			<div id="intro-TDC" class="mx-auto">
+				<img
+					src="/src/img/TDC-logo-effect.png"
+					alt=""
+					class="top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 absolute select-none"
+					width="1000px" />
+				<img
+					src="/src/img/TDC-logo.png"
+					alt="TDC_XII"
+					class="max-w-[1000px] mx-auto relative" />
+			</div>
+		</section>
+		<div
+			class="w-full h-[150px] -mt-[150px] bg-gradient-to-b from-transparent to-[#16161a] absolute"></div>
+
+		<!-- TDC XII COMPETITIONS -->
+		<section class="desktop:mx-[115px] max_1200:mx-[30px] py-[100px]">
+			<div class="desktop:flex justify-between">
+				<!-- TDC Competitions title -->
+				<div class="desktop:w-1/3">
+					<div class="p-[30px] leading-none">
+						<h1
+							class="text-[60px] text-center tracking-[11px] font-thin">
+							TDC XII
+						</h1>
+						<h2
+							class="text-[30px] text-center tracking-[5px] font-extrabold">
+							COMPETITIONS
+						</h2>
+					</div>
+					<p class="py-[40px] text-justify">
+						<i>“TECHNOLOGY AS A PLATFORM TOWARDS INDEPENDENCE”</i>
+						adalah tema yang kami digunakan untuk event TDC tahun
+						ini sebagai peringatan untuk hari kemerdekaan Republik
+						Indonesia pada tanggal 17 Agustus.
+					</p>
+					<a
+						href="https://linktr.ee/TDCXII2023"
+						class="bottom-0 p-[10px] border border-white hover:border-[#247CFF] hover:border-none hover:bg-[#247CFF] tracking-[5px] rounded flex justify-center"
+						>Pedoman Pendaftaran</a
+					>
+				</div>
+				<div class="desktop:w-1/3 flex desktop:flex-col phone:flex-col">
+					<div class="m-[30px] p-[20px] border rounded-lg">
+						<img
+							src="/src/img/web-whiteicon-50.png"
+							alt="Website-icon"
+							class="w-[50px] h-[50px] mx-auto" />
+						<h1 class="p-[10px] text-[20px] text-center">
+							Desain Website
+						</h1>
+						<p class="text-center">
+							Membuat website menggunakan bahasa HTML dan CSS agar
+							terlihat menarik dari segi visual dan isi konten.
+						</p>
+						<a
+							href=""
+							class="p-[10px] m-[10px] rounded flex justify-center text-[#247CFF] hover:bg-[#247CFF] hover:text-white">
+							Pendaftaran
+						</a>
+					</div>
+					<div class="m-[30px] p-[20px] border rounded-lg">
+						<img
+							src="/src/img/movie-whiteicon-50.png"
+							alt="Movie-icon"
+							class="w-[50px] h-[50px] mx-auto" />
+						<h1 class="p-[10px] text-[20px] text-center">
+							Short Movie
+						</h1>
+						<p>
+							Membuat video pendek tentang iklan layanan
+							masyarakat dengan tema kepahlawanan.
+						</p>
+						<a
+							href=""
+							class="p-[10px] m-[10px] rounded flex justify-center text-[#247CFF] hover:bg-[#247CFF] hover:text-white">
+							Pendaftaran
+						</a>
+					</div>
+				</div>
+				<div class="desktop:w-1/3 flex desktop:flex-col phone:flex-col">
+					<div class="m-[30px] p-[20px] border rounded-lg">
+						<img
+							src="/src/img/comic-whiteicon-50.png"
+							alt="Comic-icon"
+							class="w-[50px] h-[50px] mx-auto" />
+						<h1 class="p-[10px] text-[20px] text-center">
+							Desain Komik
+						</h1>
+						<p>
+							Membuat komik bertema kepahlawanan dengan visual
+							menarik agar diminati oleh pembaca.
+						</p>
+						<a
+							href=""
+							class="p-[10px] m-[10px] rounded flex justify-center text-[#247CFF] hover:bg-[#247CFF] hover:text-white">
+							Pendaftaran
+						</a>
+					</div>
+					<div class="m-[30px] p-[20px] border rounded-lg">
+						<img
+							src="/src/img/ps-whiteicon-50.png"
+							alt="Playstation-icon"
+							class="w-[50px] h-[50px] mx-auto" />
+						<h1 class="p-[10px] text-[20px] text-center">
+							E-Sport
+						</h1>
+						<p>
+							Kompetisi Mobile Legends : Bang Bang (MLBB) 5 vs 5
+							bagi siswa-siswi SMP se-Bali.
+						</p>
+						<a
+							href=""
+							class="p-[10px] m-[10px] rounded flex justify-center text-[#247CFF] hover:bg-[#247CFF] hover:text-white">
+							Pendaftaran
+						</a>
+					</div>
 				</div>
 			</div>
-			<!-- RIGHT NAVIGATION -->
-			<div>
-				<img src="../src/img/three-lines-icon.svg" alt="menu" />
-			</div>
-		</nav>
-
-		<!-- THREE DIVISIONS COMPETITION LOGO -->
-		<div
-			id="intro-TDC"
-			class="desktop:pt-[100px] max_1200:pt-[80px] text-center pb-[100px]">
-			<h1 class="p-[30px] font-semibold text-3xl">
-				THREE DIVISIONS COMPETITION 2023
-			</h1>
-			<img src="/src/img/logo-SCC.png" alt="logo-TDC" class="m-auto" />
-			<h2 class="p-[30px] italic desktop:text-2xl max_1200:text-xl">
-				“TECHNOLOGY AS A PLATFORM
-				<br />
-				TOWARDS INDEPENDENCE”
-			</h2>
-			<a
-				href="#tdc-competitions"
-				class="ml-auto mr-auto p-[10px] text-xl rounded-3xl bg-[#7f5af0]"
-				>Pendaftaran TDCXII</a
-			>
-		</div>
+		</section>
 
 		<!-- TDC 2022 Slideshow -->
 		<div
@@ -66,138 +148,14 @@
 			class="w-full h-[700px] bg-[url('/src/img/AwardingTDC_2022.JPG')] bg-fixed bg-center bg-cover">
 			<div
 				class="w-full h-[700px] text-center bg-black bg-opacity-50 flex flex-col justify-center">
-				<h1 class="p-[10px] font-semibold text-5xl">TDC XI 2022</h1>
-				<h1 class="text-xl">Awarding</h1>
-			</div>
-		</div>
-
-		<!-- TDC XII COMPETITIONS -->
-		<div id="tdc-competitions" class="pt-[100px] pb-[60px] animate-fade-in">
-			<div
-				class="font-semibold text-center desktop:text-5xl max_1200:text-4xl pb-[60px]">
-				<h1>TDC XII</h1>
-				<h4>COMPETITIONS</h4>
-			</div>
-			<div
-				class="desktop:mx-[100px] max_1200:px-[8%] pb-[30px] desktop:flex">
-				<div class="desktop:w-1/2 flex">
-					<!-- DESAIN WEB -->
-					<div class="w-1/2">
-						<a href="https://linktr.ee/TDCXII2023" target="_blank">
-							<div
-								class="h-[200px] m-[10px] border rounded relative">
-								<h2
-									class="p-[30px] text-3xl text-center font-semibold uppercase top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 relative">
-									Desain Web
-								</h2>
-							</div>
-						</a>
-						<div class="w-full p-[5px] flex justify-center">
-							<a
-								href="https://linktr.ee/TDCXII2023"
-								class="w-[200px] p-[10px] rounded-3xl text-center bg-[#7f5af0]"
-								target="_blank">
-								Pedoman
-							</a>
-						</div>
-						<div class="w-full p-[5px] flex justify-center">
-							<a
-								href="https://linktr.ee/TDCXII2023"
-								class="w-[200px] p-[10px] rounded-3xl text-center bg-[#7f5af0]"
-								target="_blank">
-								Pendaftaran
-							</a>
-						</div>
-					</div>
-					<!-- Desain Komik -->
-					<div class="w-1/2">
-						<a href="https://linktr.ee/TDCXII2023" target="_blank">
-							<div
-								class="h-[200px] m-[10px] border rounded relative cursor-pointer">
-								<h2
-									class="p-[30px] text-3xl text-center font-semibold uppercase top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 relative">
-									Desain Komik
-								</h2>
-							</div>
-						</a>
-						<div class="w-full p-[5px] flex justify-center">
-							<a
-								href="https://linktr.ee/TDCXII2023"
-								class="w-[200px] p-[10px] rounded-3xl text-center bg-[#7f5af0]"
-								target="_blank">
-								Pedoman
-							</a>
-						</div>
-						<div class="w-full p-[5px] flex justify-center">
-							<a
-								href="https://linktr.ee/TDCXII2023"
-								class="w-[200px] p-[10px] rounded-3xl text-center bg-[#7f5af0]"
-								target="_blank">
-								Pendaftaran
-							</a>
-						</div>
-					</div>
-				</div>
-
-				<div class="desktop:w-1/2 flex">
-					<!-- Short Movie -->
-					<div class="w-1/2">
-						<a href="https://linktr.ee/TDCXII2023" target="_blank">
-							<div
-								class="h-[200px] m-[10px] border rounded relative cursor-pointer">
-								<h2
-									class="p-[30px] text-3xl text-center font-semibold uppercase top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 relative">
-									Short Movie
-								</h2>
-							</div>
-						</a>
-						<div class="w-full p-[5px] flex justify-center">
-							<a
-								href="https://linktr.ee/TDCXII2023"
-								class="w-[200px] p-[10px] rounded-3xl text-center bg-[#7f5af0]"
-								target="_blank">
-								Pedoman
-							</a>
-						</div>
-						<div class="w-full p-[5px] flex justify-center">
-							<a
-								href="https://linktr.ee/TDCXII2023"
-								class="w-[200px] p-[10px] rounded-3xl text-center bg-[#7f5af0]"
-								target="_blank">
-								Pendaftaran
-							</a>
-						</div>
-					</div>
-					<!-- E-Sport -->
-					<div class="w-1/2">
-						<a href="https://linktr.ee/TDCXII2023" target="_blank">
-							<div
-								class="h-[200px] m-[10px] border rounded relative cursor-pointer">
-								<h2
-									class="p-[30px] text-3xl text-center font-semibold uppercase top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 relative">
-									E-Sport
-								</h2>
-							</div>
-						</a>
-						<div class="w-full p-[5px] flex justify-center">
-							<a
-								href="https://linktr.ee/TDCXII2023"
-								class="w-[200px] p-[10px] rounded-3xl text-center bg-[#7f5af0]"
-								target="_blank">
-								Pedoman
-							</a>
-						</div>
-						<div class="w-full p-[5px] flex justify-center">
-							<a
-								href="https://linktr.ee/TDCXII2023"
-								class="w-[200px] p-[10px] rounded-3xl text-center bg-[#7f5af0]"
-								target="_blank">
-								Pendaftaran
-							</a>
-						</div>
-					</div>
-					<!-- E-Sport ends -->
-				</div>
+				<h1 class="p-[10px] font-semibold text-5xl tracking-[12px]">
+					TDC XI 2022
+				</h1>
+				<h1 class="text-xl italic">
+					"Media Sosial Sebagai Wadah Kreativitas
+					<br />
+					Dalam Membangkitkan Jiwa Sumpah Pemuda di Era Digital"
+				</h1>
 			</div>
 		</div>
 
@@ -207,73 +165,76 @@
 				<!-- ABOUT -->
 				<div class="desktop:w-1/3 p-[20px]">
 					<h1
-						class="p-[30px] text-center text-3xl text-white font-semibold uppercase">
+						class="p-[30px] text-center text-[20px] text-white font-semibold uppercase">
 						About
 					</h1>
-					<p>
+					<p class="text-[14px]">
 						Three Divisions Competition (TDC) adalah salah satu
 						event tahunan yang diadakan SCC untuk mengasah bakat dan
 						kemampuan siswa/i SMP se-Bali dengan beberapa bidang
 						lomba yang berbeda.
 					</p>
 				</div>
-				<!-- MORE INFO -->
-				<div class="desktop:w-1/3 p-[20px]">
-					<h1
-						class="p-[30px] text-center text-3xl text-white font-semibold uppercase">
-						More Info
-					</h1>
-					<img
-						class="m-auto w-[80px] h-[80px]"
-						src="/src/img/instagram.png"
-						alt="instagram" />
-					<div class="p-[30px] text-center">
-						<h1 class="text-3xl">Instagram</h1>
-						<div>
-							<a href="https://instagram.com/tdcsmansa2022"
-								>@tdcsmansa2023</a
-							>
-						</div>
-					</div>
-				</div>
-				<!-- CONTACT -->
-				<div class="desktop:w-1/3 p-[20px]">
-					<h1
-						class="p-[30px] text-center text-3xl text-white font-semibold uppercase">
-						Contact
-					</h1>
-					<div class="flex max_1200:justify-center">
+				<div
+					class="desktop:w-2/3 max_1200:w-full max_1200:justify-center flex">
+					<!-- MORE INFO -->
+					<div class="desktop:w-1/2 p-[20px]">
+						<h1
+							class="p-[20px] text-center text-[20px] text-white font-semibold uppercase">
+							More Info
+						</h1>
 						<img
-							class="w-[80px] h-[80px]"
-							src="/src/img/whatsapp.png"
-							alt="whatsapp" />
-						<div class="px-[30px]">
-							<h1 class="text-3xl">Whatsapp :</h1>
-							<a
-								href="https://api.whatsapp.com/send?phone=6281239820097"
-								target="_blank"
-								class="p-[10px]">
-								<h3>+62 812-3982-0097</h3>
-								<h2>Bagus Utama</h2>
-							</a>
-							<a
-								href="https://api.whatsapp.com/send?phone=6285931257608"
-								target="_blank"
-								class="p-[10px]">
-								<h3>+62 859-3125-7608</h3>
-								<h2>Bunga Julia</h2>
+							class="m-auto w-[50px] h-[50px]"
+							src="/src/img/instagram.png"
+							alt="instagram" />
+						<div class="desktop:p-[30px] text-center">
+							<a href="https://instagram.com/tdcsmansa2022">
+								<h1 class="text-[20px]">Instagram</h1>
+								<h3>@tdcsmansa2023</h3>
 							</a>
 						</div>
 					</div>
-					<div class="flex max_1200:justify-center">
-						<img
-							class="w-[80px] h-[80px]"
-							src="/src/img/gmail.png"
-							alt="gmail" />
-						<div class="px-[30px]">
-							<h1 class="text-3xl">Gmail :</h1>
-							<div>
-								<h3 class="p-[10px]">tdcxiismansa@gmail.com</h3>
+					<!-- CONTACT -->
+					<div class="desktop:w-1/2 p-[20px]">
+						<h1
+							class="p-[30px] text-center text-[20px] text-white font-semibold uppercase">
+							Contact
+						</h1>
+						<div class="flex max_1200:justify-center">
+							<img
+								class="w-[50px] h-[50px]"
+								src="/src/img/whatsapp.png"
+								alt="whatsapp" />
+							<div class="desktop:px-[30px] max_1200:px-[10px]">
+								<h1 class="text-[20px]">Whatsapp :</h1>
+								<a
+									href="https://api.whatsapp.com/send?phone=6281239820097"
+									target="_blank"
+									class="p-[10px] text-[16px]">
+									<h3>+62 812-3982-0097</h3>
+									<h2>Bagus Utama</h2>
+								</a>
+								<a
+									href="https://api.whatsapp.com/send?phone=6285931257608"
+									target="_blank"
+									class="p-[10px] text-[16px]">
+									<h3>+62 859-3125-7608</h3>
+									<h2>Bunga Julia</h2>
+								</a>
+							</div>
+						</div>
+						<div class="flex max_1200:justify-center">
+							<img
+								class="w-[50px] h-[50px]"
+								src="/src/img/gmail.png"
+								alt="gmail" />
+							<div class="desktop:px-[30px] max_1200:px-[10px]">
+								<h1 class="text-[20px]">Gmail :</h1>
+								<a href="">
+									<h3 class="p-[10px] text-[16px]">
+										tdcxiismansa@gmail.com
+									</h3>
+								</a>
 							</div>
 						</div>
 					</div>
