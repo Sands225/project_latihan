@@ -849,6 +849,16 @@ video {
   padding-bottom: 0px;
 }
 
+.py-\[20px\] {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.py-\[400px\] {
+  padding-top: 400px;
+  padding-bottom: 400px;
+}
+
 .pb-\[100px\] {
   padding-bottom: 100px;
 }
@@ -910,6 +920,22 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-\[50px\] {
+  font-size: 50px;
+}
+
+.text-\[55px\] {
+  font-size: 55px;
+}
+
+.text-\[25px\] {
+  font-size: 25px;
+}
+
+.text-\[12px\] {
+  font-size: 12px;
 }
 
 .font-extrabold {
