@@ -18,6 +18,10 @@ module.exports = {
 		},
 		extend: {
 			keyframes: {
+				"loading-opacity": {
+					"0%, 100%": { opacity: "100%" },
+					"50%": { opacity: "20%" },
+				},
 				"going-up": {
 					"0%": { transform: "translateY(40px)", opacity: "0%" },
 					"100%": { transform: "translateY(0px)", opacity: "100%" },
@@ -28,8 +32,12 @@ module.exports = {
 				},
 			},
 			animation: {
-				"fade-in": "fade-in 5s 1 linear",
+				"fade-in": "fade-in 1s ease-in fowards",
+				"loading-TDCXII": "loading-opacity 3s linear infinite",
 			},
+		},
+		variants: {
+			animation: ["motion-safe"],
 		},
 	},
 	plugins: [],
