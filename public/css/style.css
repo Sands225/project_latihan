@@ -1215,6 +1215,30 @@ video {
     margin-top: 350px;
   }
 
+  .phone\:mt-\[500px\] {
+    margin-top: 500px;
+  }
+
+  .phone\:mt-\[600px\] {
+    margin-top: 600px;
+  }
+
+  .phone\:-mt-\[500px\] {
+    margin-top: -500px;
+  }
+
+  .phone\:-mt-\[400px\] {
+    margin-top: -400px;
+  }
+
+  .phone\:-mt-\[300px\] {
+    margin-top: -300px;
+  }
+
+  .phone\:-mt-\[250px\] {
+    margin-top: -250px;
+  }
+
   .phone\:flex {
     display: flex;
   }
