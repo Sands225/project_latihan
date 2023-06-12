@@ -17,7 +17,27 @@
 		<div
 			id="loading-screen"
 			class="w-full h-full top-0 left-0 bg-[#16161a] fixed z-20">
-			<h1>TDC XII is loading...</h1>
+			<div
+				class="left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 max_1200:w-[330px] max_1200:h-[330px] desktop:w-[520px] desktop:h-[520px] rounded-full bg-red-600 absolute animate-firstFadeIn opacity-80"></div>
+			<div
+				class="left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 max_1200:w-[315px] max_1200:h-[315px] desktop:w-[500px] desktop:h-[500px] rounded-full bg-white absolute animate-firstFadeIn"></div>
+			<div
+				class="left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 max_1200:w-[300px] max_1200:h-[300px] desktop:w-[480px] desktop:h-[480px] rounded-full bg-[#16161a] absolute"></div>
+			<div class="left-1/2 top-1/2 animate-spinLoad-TDCXII absolute">
+				<div
+					class="left-1/2 top-1/2 -translate-y-1/2 -translate-x-1/2 max_1200:w-[400px] max_1200:h-[230px] desktop:w-[860px] desktop:h-[350px] bg-[#16161a] absolute"></div>
+			</div>
+			<div
+				class="w-full left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 animate-pulse fixed">
+				<h1
+					class="text-center desktop:text-[60px] phone:text-[50px] relative">
+					TDC XII
+				</h1>
+				<h1
+					class="loader-TDCXII-loading text-[20px] tracking-[15px] text-center relative">
+					<!-- LOADING . . . -->
+				</h1>
+			</div>
 		</div>
 
 		<!-- THREE DIVISIONS COMPETITION HEADER -->
@@ -44,7 +64,7 @@
 			<div class="desktop:flex justify-between">
 				<!-- TDC Competitions title -->
 				<div
-					class="desktop:w-1/3 phone:w-full motion-safe:animate-fade-in">
+					class="desktop:w-1/2 phone:w-full motion-safe:animate-fade-in">
 					<div class="p-[30px] leading-none">
 						<h1
 							class="text-[55px] text-center tracking-[8px] font-thin">
@@ -70,81 +90,90 @@
 						>Pedoman Pendaftaran</a
 					>
 				</div>
-				<div
-					class="desktop:w-1/3 flex desktop:flex-col phone:w-full phone:flex-col">
-					<div class="m-[30px] p-[20px] border rounded-lg">
-						<img
-							src="/src/img/web-whiteicon-50.png"
-							alt="Website-icon"
-							class="w-[40px] h-[40px] mx-auto" />
-						<h1 class="p-[10px] text-[20px] text-center">
-							Desain Website
-						</h1>
-						<p class="text-center text-[12px]">
-							Membuat website menggunakan bahasa HTML dan CSS agar
-							terlihat menarik dari segi visual dan konten.
-						</p>
-						<a
-							href=""
-							class="p-[10px] m-[10px] rounded flex justify-center text-[#247CFF] hover:bg-[#247CFF] hover:text-white">
-							Pendaftaran
-						</a>
+				<!-- MULAI -->
+				<div class="phone:flex phone:overflow-auto flex">
+					<div
+						class="desktop:w-1/2 flex desktop:flex-col desktop:mx-[20px] phone:flex">
+						<div
+							class="desktop:m-[20px] p-[20px] my-[20px] border rounded-lg">
+							<img
+								src="/src/img/web-whiteicon-50.png"
+								alt="Website-icon"
+								class="w-[40px] h-[40px] mx-auto" />
+							<h1 class="p-[10px] text-[20px] text-center">
+								Desain Website
+							</h1>
+							<p class="text-center text-[12px]">
+								Membuat website menggunakan bahasa HTML dan CSS
+								agar terlihat menarik dari segi visual dan
+								konten.
+							</p>
+							<a
+								href=""
+								class="py-[10px] px-[30px] my-[10px] mx-[48px] rounded flex justify-center text-[#247CFF] hover:bg-[#247CFF] hover:text-white">
+								Pendaftaran
+							</a>
+						</div>
+						<div
+							class="desktop:m-[20px] p-[20px] my-[20px] ml-[20px] border rounded-lg">
+							<img
+								src="/src/img/movie-whiteicon-50.png"
+								alt="Movie-icon"
+								class="w-[40px] h-[40px] mx-auto" />
+							<h1 class="p-[10px] text-[20px] text-center">
+								Short Movie
+							</h1>
+							<p class="text-center text-[12px]">
+								Membuat video pendek tentang iklan layanan
+								masyarakat dengan tema kepahlawanan.
+							</p>
+							<a
+								href=""
+								class="py-[10px] phone:px-[30px] my-[10px] mx-[48px] rounded flex justify-center text-[#247CFF] hover:bg-[#247CFF] hover:text-white">
+								Pendaftaran
+							</a>
+						</div>
 					</div>
-					<div class="m-[30px] p-[20px] border rounded-lg">
-						<img
-							src="/src/img/movie-whiteicon-50.png"
-							alt="Movie-icon"
-							class="w-[40px] h-[40px] mx-auto" />
-						<h1 class="p-[10px] text-[20px] text-center">
-							Short Movie
-						</h1>
-						<p class="text-center text-[12px]">
-							Membuat video pendek tentang iklan layanan
-							masyarakat dengan tema kepahlawanan.
-						</p>
-						<a
-							href=""
-							class="p-[10px] m-[10px] rounded flex justify-center text-[#247CFF] hover:bg-[#247CFF] hover:text-white">
-							Pendaftaran
-						</a>
-					</div>
-				</div>
-				<div class="desktop:w-1/3 flex desktop:flex-col phone:flex-col">
-					<div class="m-[30px] p-[20px] border rounded-lg">
-						<img
-							src="/src/img/comic-whiteicon-50.png"
-							alt="Comic-icon"
-							class="w-[40px] h-[40px] mx-auto" />
-						<h1 class="p-[10px] text-[20px] text-center">
-							Desain Komik
-						</h1>
-						<p class="text-center text-[12px]">
-							Membuat komik bertema kepahlawanan dengan visual
-							menarik agar diminati oleh pembaca.
-						</p>
-						<a
-							href=""
-							class="p-[10px] m-[10px] rounded flex justify-center text-[#247CFF] hover:bg-[#247CFF] hover:text-white">
-							Pendaftaran
-						</a>
-					</div>
-					<div class="m-[30px] p-[20px] border rounded-lg">
-						<img
-							src="/src/img/ps-whiteicon-50.png"
-							alt="Playstation-icon"
-							class="w-[40px] h-[40px] mx-auto" />
-						<h1 class="p-[10px] text-[20px] text-center">
-							E-Sport
-						</h1>
-						<p class="text-center text-[12px]">
-							Kompetisi Mobile Legends : Bang Bang (MLBB) 5 vs 5
-							bagi siswa-siswi SMP se-Bali.
-						</p>
-						<a
-							href=""
-							class="p-[10px] m-[10px] rounded flex justify-center text-[#247CFF] hover:bg-[#247CFF] hover:text-white">
-							Pendaftaran
-						</a>
+					<div
+						class="desktop:w-1/2 flex desktop:flex-col desktop:mx-[20px] phone:flex">
+						<div
+							class="desktop:m-[20px] p-[20px] my-[20px] ml-[20px] border rounded-lg">
+							<img
+								src="/src/img/comic-whiteicon-50.png"
+								alt="Comic-icon"
+								class="w-[40px] h-[40px] mx-auto" />
+							<h1 class="p-[10px] text-[20px] text-center">
+								Desain Komik
+							</h1>
+							<p class="text-center text-[12px]">
+								Membuat komik bertema kepahlawanan dengan visual
+								menarik agar diminati oleh pembaca.
+							</p>
+							<a
+								href=""
+								class="py-[10px] px-[30px] my-[10px] mx-[48px] rounded flex justify-center text-[#247CFF] hover:bg-[#247CFF] hover:text-white">
+								Pendaftaran
+							</a>
+						</div>
+						<div
+							class="desktop:m-[20px] p-[20px] my-[20px] ml-[20px] border rounded-lg">
+							<img
+								src="/src/img/ps-whiteicon-50.png"
+								alt="Playstation-icon"
+								class="w-[40px] h-[40px] mx-auto" />
+							<h1 class="p-[10px] text-[20px] text-center">
+								E-Sport
+							</h1>
+							<p class="text-center text-[12px]">
+								Kompetisi Mobile Legends : Bang Bang (MLBB) 5 vs
+								5 bagi siswa-siswi SMP se-Bali.
+							</p>
+							<a
+								href=""
+								class="py-[10px] px-[30px] my-[10px] mx-[48px] rounded flex justify-center text-[#247CFF] hover:bg-[#247CFF] hover:text-white">
+								Pendaftaran
+							</a>
+						</div>
 					</div>
 				</div>
 			</div>

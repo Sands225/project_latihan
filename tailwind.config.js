@@ -30,10 +30,16 @@ module.exports = {
 					"0%": { opacity: "0%" },
 					"100%": { opacity: "100%" },
 				},
+				spinLoader: {
+					"0%": { transform: "rotate(360deg)" },
+					"100%": { transform: "rotate(0deg)" },
+				},
 			},
 			animation: {
 				"fade-in": "fade-in 1s ease-in fowards",
 				"loading-TDCXII": "loading-opacity 3s linear infinite",
+				"spinLoad-TDCXII": "spinLoader 1.5s linear infinite",
+				firstFadeIn: "fade-in 1.5 ease-in 1",
 			},
 		},
 		variants: {
