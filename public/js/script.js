@@ -15,3 +15,19 @@ function loadingPage() {
 }
 
 setInterval(loadingPage, 650);
+
+// ON SCROLL ANIMATION
+window.addEventListener("scroll", function () {
+	var elements = document.querySelectorAll(".js-show-on-scroll");
+
+	elements.forEach(function (element) {
+		var positionFromTop = element.getBoundingClientRect().top;
+		var windowHeight = window.innerHeight;
+
+		if (positionFromTop - windowHeight + 200 <= 0) {
+			element.classList.add("onScroll-fade-in-visible");
+		} else {
+			element.classList.remove("onScroll-fade-in-visible");
+		}
+	});
+});

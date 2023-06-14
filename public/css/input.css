@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+	.onScroll-fade-in {
+		opacity: 0;
+		transition: opacity 5s;
+	}
+	.onScroll-fade-in-visible {
+		opacity: 1;
+		transition: opacity 5s;
+	}
+}
