@@ -893,12 +893,21 @@ video {
   background-size: cover;
 }
 
+.bg-auto {
+  background-size: auto;
+}
+
 .bg-fixed {
   background-attachment: fixed;
 }
 
 .bg-center {
   background-position: center;
+}
+
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .p-4 {
@@ -1156,6 +1165,14 @@ video {
     height: 650px;
   }
 
+  .phone\:h-screen {
+    height: 100vh;
+  }
+
+  .phone\:h-full {
+    height: 100%;
+  }
+
   .phone\:w-\[60px\] {
     width: 60px;
   }
@@ -1168,12 +1185,28 @@ video {
     width: 100%;
   }
 
+  .phone\:w-auto {
+    width: auto;
+  }
+
   .phone\:justify-center {
     justify-content: center;
   }
 
   .phone\:overflow-auto {
     overflow: auto;
+  }
+
+  .phone\:bg-auto {
+    background-size: auto;
+  }
+
+  .phone\:bg-cover {
+    background-size: cover;
+  }
+
+  .phone\:bg-fixed {
+    background-attachment: fixed;
   }
 
   .phone\:p-\[5px\] {
@@ -1409,6 +1442,10 @@ video {
 
   .desktop\:w-\[860px\] {
     width: 860px;
+  }
+
+  .desktop\:w-full {
+    width: 100%;
   }
 
   .desktop\:flex-col {
