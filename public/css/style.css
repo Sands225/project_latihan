@@ -612,6 +612,16 @@ video {
   margin-bottom: 20px;
 }
 
+.mx-\[38px\] {
+  margin-left: 38px;
+  margin-right: 38px;
+}
+
+.mx-\[33px\] {
+  margin-left: 33px;
+  margin-right: 33px;
+}
+
 .ml-\[20px\] {
   margin-left: 20px;
 }
@@ -1167,6 +1177,11 @@ video {
     margin-right: 30px;
   }
 
+  .phone\:mx-\[20px\] {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
   .phone\:mt-\[600px\] {
     margin-top: 600px;
   }
@@ -1226,6 +1241,14 @@ video {
   .phone\:text-\[50px\] {
     font-size: 50px;
   }
+
+  .phone\:text-\[12px\] {
+    font-size: 12px;
+  }
+
+  .phone\:text-\[14px\] {
+    font-size: 14px;
+  }
 }
 
 @media (min-width: 640px) {
@@ -1273,6 +1296,14 @@ video {
 
   .tablet\:text-center {
     text-align: center;
+  }
+
+  .tablet\:text-\[55px\] {
+    font-size: 55px;
+  }
+
+  .tablet\:text-\[16px\] {
+    font-size: 16px;
   }
 }
 
@@ -1486,6 +1517,14 @@ video {
   .desktop\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
+  }
+
+  .desktop\:text-\[55px\] {
+    font-size: 55px;
+  }
+
+  .desktop\:text-\[16px\] {
+    font-size: 16px;
   }
 
   .desktop\:delay-\[400ms\] {
