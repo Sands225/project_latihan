@@ -885,16 +885,16 @@ video {
   --tw-bg-opacity: 0.5;
 }
 
+.bg-\[url\(\'\/src\/img\/AwardingTDC2022-fixed\.JPG\'\)\] {
+  background-image: url('/src/img/AwardingTDC2022-fixed.JPG');
+}
+
 .bg-\[url\(\'\/src\/img\/AwardingTDC_2022\.JPG\'\)\] {
   background-image: url('/src/img/AwardingTDC_2022.JPG');
 }
 
 .bg-cover {
   background-size: cover;
-}
-
-.bg-auto {
-  background-size: auto;
 }
 
 .bg-fixed {
@@ -1104,6 +1104,10 @@ video {
   transition-delay: 500ms;
 }
 
+.delay-\[300ms\] {
+  transition-delay: 300ms;
+}
+
 .duration-500 {
   transition-duration: 500ms;
 }
@@ -1161,16 +1165,12 @@ video {
     display: flex;
   }
 
+  .phone\:hidden {
+    display: none;
+  }
+
   .phone\:h-\[650px\] {
     height: 650px;
-  }
-
-  .phone\:h-screen {
-    height: 100vh;
-  }
-
-  .phone\:h-full {
-    height: 100%;
   }
 
   .phone\:w-\[60px\] {
@@ -1185,10 +1185,6 @@ video {
     width: 100%;
   }
 
-  .phone\:w-auto {
-    width: auto;
-  }
-
   .phone\:justify-center {
     justify-content: center;
   }
@@ -1197,24 +1193,9 @@ video {
     overflow: auto;
   }
 
-  .phone\:bg-auto {
-    background-size: auto;
-  }
-
-  .phone\:bg-cover {
-    background-size: cover;
-  }
-
-  .phone\:bg-fixed {
-    background-attachment: fixed;
-  }
-
-  .phone\:p-\[5px\] {
-    padding: 5px;
-  }
-
-  .phone\:p-\[10px\] {
-    padding: 10px;
+  .phone\:px-\[10px\] {
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   .phone\:px-\[30px\] {
@@ -1225,11 +1206,6 @@ video {
   .phone\:py-\[100px\] {
     padding-top: 100px;
     padding-bottom: 100px;
-  }
-
-  .phone\:px-\[10px\] {
-    padding-left: 10px;
-    padding-right: 10px;
   }
 
   .phone\:text-\[50px\] {
@@ -1249,6 +1225,10 @@ video {
 
   .tablet\:flex {
     display: flex;
+  }
+
+  .tablet\:hidden {
+    display: none;
   }
 
   .tablet\:h-\[800px\] {
@@ -1382,6 +1362,10 @@ video {
 
   .desktop\:flex {
     display: flex;
+  }
+
+  .desktop\:hidden {
+    display: none;
   }
 
   .desktop\:h-\[150px\] {
