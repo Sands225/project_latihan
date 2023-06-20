@@ -31,3 +31,33 @@ window.addEventListener("scroll", function () {
 		}
 	});
 });
+
+// let imageUrls = ["image1.jpg", "image2.jpg", "image3.jpg"];
+
+// let myElement = document.querySelector(".my-element");
+
+// function changeBackgroundImage() {
+// 	let randomIndex = Math.floor(Math.random() * imageUrls.length);
+// 	let randomImageUrl = imageUrls[randomIndex];
+// 	myElement.style.backgroundImage = `url(${randomImageUrl})`;
+// }
+
+// changeBackgroundImage();
+
+let bgSlide = [
+	"/src/img/AwardingTDC_2022.JPG",
+	"/src/img/FotoBersama-TDC2022.JPG",
+];
+let archieveTDC = document.querySelector(".slide-TDC");
+let count = 0;
+
+function changeBg() {
+	if (count >= bgSlide.length) {
+		count = 0;
+	}
+	let slideBackground = bgSlide[count];
+	archieveTDC.style.backgroundImage = `url(${slideBackground})`;
+	count++;
+}
+
+setInterval(changeBg, 1500);
