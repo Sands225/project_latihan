@@ -760,20 +760,12 @@ video {
   --tw-bg-opacity: 0.5;
 }
 
-.bg-\[url\(\'\/src\/img\/AwardingTDC_2022\.JPG\'\)\] {
-  background-image: url('/src/img/AwardingTDC_2022.JPG');
-}
-
-.bg-\[url\(\'src\/img\/AwardingTDC_2022\.JPG\'\)\] {
-  background-image: url('src/img/AwardingTDC_2022.JPG');
-}
-
-.bg-\[url\(\'\.\/src\/img\/AwardingTDC_2022\.JPG\'\)\] {
-  background-image: url('./src/img/AwardingTDC_2022.JPG');
-}
-
 .bg-\[url\(\'\.\.\/src\/img\/AwardingTDC_2022\.JPG\'\)\] {
   background-image: url('../src/img/AwardingTDC_2022.JPG');
+}
+
+.bg-\[url\(\'\.\.\/src\/img\/AwardingTDC2022-fixed\.JPG\'\)\] {
+  background-image: url('../src/img/AwardingTDC2022-fixed.JPG');
 }
 
 .bg-cover {
