@@ -760,10 +760,6 @@ video {
   --tw-bg-opacity: 0.5;
 }
 
-.bg-\[url\(\'\.\.\/src\/img\/AwardingTDC_2022\.JPG\'\)\] {
-  background-image: url('../src/img/AwardingTDC_2022.JPG');
-}
-
 .bg-\[url\(\'\.\.\/src\/img\/AwardingTDC2022-fixed\.JPG\'\)\] {
   background-image: url('../src/img/AwardingTDC2022-fixed.JPG');
 }
@@ -1203,8 +1199,8 @@ video {
     width: 130px;
   }
 
-  .desktop\:w-\[180px\] {
-    width: 180px;
+  .desktop\:w-\[230px\] {
+    width: 230px;
   }
 
   .desktop\:w-\[480px\] {
@@ -1225,6 +1221,22 @@ video {
 
   .desktop\:w-full {
     width: 100%;
+  }
+
+  .desktop\:w-\[150px\] {
+    width: 150px;
+  }
+
+  .desktop\:w-\[180px\] {
+    width: 180px;
+  }
+
+  .desktop\:w-\[200px\] {
+    width: 200px;
+  }
+
+  .desktop\:w-\[190px\] {
+    width: 190px;
   }
 
   .desktop\:flex-col {
