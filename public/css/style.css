@@ -538,10 +538,6 @@ video {
   position: relative;
 }
 
-.bottom-0 {
-  bottom: 0px;
-}
-
 .left-0 {
   left: 0px;
 }
@@ -562,6 +558,14 @@ video {
   top: 50%;
 }
 
+.right-1\/2 {
+  right: 50%;
+}
+
+.bottom-0 {
+  bottom: 0px;
+}
+
 .z-20 {
   z-index: 20;
 }
@@ -570,9 +574,8 @@ video {
   margin: 10px;
 }
 
-.mx-\[100px\] {
-  margin-left: 100px;
-  margin-right: 100px;
+.m-4 {
+  margin: 1rem;
 }
 
 .mx-\[38px\] {
@@ -611,6 +614,10 @@ video {
   height: 50px;
 }
 
+.h-\[60vh\] {
+  height: 60vh;
+}
+
 .h-full {
   height: 100%;
 }
@@ -631,6 +638,10 @@ video {
   width: 100%;
 }
 
+.w-\[80vw\] {
+  width: 80vw;
+}
+
 .-translate-x-1\/2 {
   --tw-translate-x: -50%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -638,6 +649,16 @@ video {
 
 .-translate-y-1\/2 {
   --tw-translate-y: -50%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.translate-x-1\/2 {
+  --tw-translate-x: 50%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.translate-y-1\/2 {
+  --tw-translate-y: 50%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -703,6 +724,10 @@ video {
   flex-direction: column;
 }
 
+.justify-end {
+  justify-content: flex-end;
+}
+
 .justify-center {
   justify-content: center;
 }
@@ -727,13 +752,16 @@ video {
   border-radius: 0.5rem;
 }
 
+.rounded-xl {
+  border-radius: 0.75rem;
+}
+
 .border {
   border-width: 1px;
 }
 
-.border-white {
-  --tw-border-opacity: 1;
-  border-color: rgb(255 255 255 / var(--tw-border-opacity));
+.border-r-4 {
+  border-right-width: 4px;
 }
 
 .bg-\[\#16161a\] {
@@ -826,6 +854,10 @@ video {
   text-align: justify;
 }
 
+.align-bottom {
+  vertical-align: bottom;
+}
+
 .font-\[Poppins\] {
   font-family: Poppins;
 }
@@ -858,16 +890,68 @@ video {
   font-size: 55px;
 }
 
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-\[80px\] {
+  font-size: 80px;
+}
+
+.text-8xl {
+  font-size: 6rem;
+  line-height: 1;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.text-6xl {
+  font-size: 3.75rem;
+  line-height: 1;
+}
+
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.text-\[5px\] {
+  font-size: 5px;
+}
+
+.text-\[10px\] {
+  font-size: 10px;
+}
+
+.text-\[11px\] {
+  font-size: 11px;
+}
+
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
 .font-extrabold {
   font-weight: 800;
 }
 
 .font-semibold {
   font-weight: 600;
-}
-
-.font-thin {
-  font-weight: 100;
 }
 
 .uppercase {
@@ -880,6 +964,14 @@ video {
 
 .leading-none {
   line-height: 1;
+}
+
+.leading-4 {
+  line-height: 1rem;
+}
+
+.leading-10 {
+  line-height: 2.5rem;
 }
 
 .tracking-\[12px\] {
@@ -913,6 +1005,11 @@ video {
   color: rgb(230 230 230 / var(--tw-text-opacity));
 }
 
+.text-red-500 {
+  --tw-text-opacity: 1;
+  color: rgb(239 68 68 / var(--tw-text-opacity));
+}
+
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -942,15 +1039,6 @@ video {
 
 .ease-in-out {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.hover\:border-none:hover {
-  border-style: none;
-}
-
-.hover\:border-\[\#247CFF\]:hover {
-  --tw-border-opacity: 1;
-  border-color: rgb(36 124 255 / var(--tw-border-opacity));
 }
 
 .hover\:bg-\[\#247CFF\]:hover {
@@ -1199,8 +1287,8 @@ video {
     width: 130px;
   }
 
-  .desktop\:w-\[230px\] {
-    width: 230px;
+  .desktop\:w-\[180px\] {
+    width: 180px;
   }
 
   .desktop\:w-\[480px\] {
@@ -1221,22 +1309,6 @@ video {
 
   .desktop\:w-full {
     width: 100%;
-  }
-
-  .desktop\:w-\[150px\] {
-    width: 150px;
-  }
-
-  .desktop\:w-\[180px\] {
-    width: 180px;
-  }
-
-  .desktop\:w-\[200px\] {
-    width: 200px;
-  }
-
-  .desktop\:w-\[190px\] {
-    width: 190px;
   }
 
   .desktop\:flex-col {
